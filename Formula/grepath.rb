@@ -1,21 +1,21 @@
 class Grepath < Formula
   desc "Extract paths effortlessly from your command outputs with grepath"
   homepage "https://github.com/kqito/grepath"
-  version "0.0.9"
+  version "0.0.10"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/kqito/grepath/releases/download/v0.0.9/grepath-aarch64-apple-darwin.tar.xz"
-      sha256 "ffd0bffd0b1d81977c22ef5e1ccdea69844d056e67c56fa786a8148f39cc3749"
+      url "https://github.com/kqito/grepath/releases/download/v0.0.10/grepath-aarch64-apple-darwin.tar.xz"
+      sha256 "514c1783772793af240100fb25283479a91311d082e51ae1fc2681dc91fab88f"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/kqito/grepath/releases/download/v0.0.9/grepath-x86_64-apple-darwin.tar.xz"
-      sha256 "26b4ad59c1a2934f87a376a838f8d9175171290a0ff7c4b8afab18c1f1f8ca4c"
+      url "https://github.com/kqito/grepath/releases/download/v0.0.10/grepath-x86_64-apple-darwin.tar.xz"
+      sha256 "f9e09646cdfc687ed409728f91c475b7a11cfeefa977cdaf712df5223271acf5"
     end
   end
   if OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/kqito/grepath/releases/download/v0.0.9/grepath-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "316a4e8a84e03ccf96823408904f62420dc56c0f0e7e4e7dabbe23d695cdef37"
+      url "https://github.com/kqito/grepath/releases/download/v0.0.10/grepath-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "b44428cd51a7010bcd05c3780ebd6b19b2f014d4bfba5a0c46a64f72cce3fa31"
     end
   end
   license "MIT"
